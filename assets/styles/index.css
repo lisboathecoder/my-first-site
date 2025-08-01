@@ -1,0 +1,16 @@
+/* Reset do CSS */
+* {
+  margin: 2;
+  padding: 0;
+}
+
+h1,
+p {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(0, 0, 0);
+}
+
+header {
+    background-color: rgb(255, 139, 139);
+}
