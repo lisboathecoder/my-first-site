@@ -7,11 +7,11 @@
 h1,
 p {
   text-align: center;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  color: rgb(255, 255, 255);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(255, 216, 216);
 }
 
 header {
-  background-image: linear-gradient(175deg, #00ffff 0%, #8c00ff 100%);
+  background-image: linear-gradient(175deg, #00ffff 15%, #8c00ff 100%);
   padding: 60px;
 }
