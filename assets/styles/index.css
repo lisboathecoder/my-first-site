@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&display=swap');
+
 /* Reset do CSS */
 * {
   margin: 0;
@@ -5,8 +7,10 @@
 }
 
 #cee {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
   font-family: 'New Rocker';
-  text-align: right;
   font-size: 40px;
 }
 
@@ -17,43 +21,57 @@ body {
   min-width: 100vh;
 }
 
-h1,
-p {
-  text-align: center;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: rgb(255, 216, 216);
-}
 
 header {
-  background-image: linear-gradient(175deg, #000000 15%, #ff0000 100%);
+  background-image: linear-gradient(175deg, #000000 25%, #8c00ff 56%);
   padding: 60px;
-  
+  color: azure;
+  text-align: center;
 }
 
 main {
-  background-color: #ffffff;
+  background-image: linear-gradient(360deg, #ffffff 35%,#8c00ff 100%);
   flex: 1;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding: 3rem 2rem;
+  width: 100%;
 }
 
 
 about-section {
-  padding: 2rem;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  padding-top: 4rem;
+  display: block;
+  background-color: #ffffff;
+  width: 80%;
+  margin: 0 auto;
+  padding: 2.5rem;
+  border-radius: 0.650rem;
+   opacity: 0;
+    transform: translateY(2rem);
+
+    animation-name: appear;
+    animation-duration: 700ms;
+    animation-fill-mode: forwards;
 }
 
+@keyframes appear {
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
 #title-about-me {
+  background-color: white;
   color: rgb(0, 0, 0);
+  width: 80%;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 3rem;
+  border-bottom: 2px solid #8c00ff;
+
 }
 .text-about-me {
   text-align: left;
-  font-size: 30px;
+  font-size: 2rem;
   background-color: white;
   color: #000000;
   width: 80%;
