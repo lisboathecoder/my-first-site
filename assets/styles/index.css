@@ -4,6 +4,19 @@
   padding: 0;
 }
 
+#cee {
+  font-family: 'New Rocker';
+  text-align: right;
+  font-size: 40px;
+}
+
+/* Configurações gerais */
+body {
+  display: flex;
+  flex-direction: column;
+  min-width: 100vh;
+}
+
 h1,
 p {
   text-align: center;
@@ -12,6 +25,37 @@ p {
 }
 
 header {
-  background-image: linear-gradient(175deg, #00ffff 15%, #8c00ff 100%);
+  background-image: linear-gradient(175deg, #000000 15%, #ff0000 100%);
   padding: 60px;
+  
+}
+
+main {
+  background-color: #ffffff;
+  flex: 1;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+
+about-section {
+  padding: 2rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-top: 4rem;
+}
+
+#title-about-me {
+  color: rgb(0, 0, 0);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 3rem;
+}
+.text-about-me {
+  text-align: left;
+  font-size: 30px;
+  background-color: white;
+  color: #000000;
+  width: 80%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
