@@ -7,14 +7,6 @@
   padding: 0;
 }
 
-#cee {
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  font-family: 'New Rocker';
-  font-size: 40px;
-}
-
 /* Configurações gerais */
 body {
   display: flex;
@@ -25,7 +17,7 @@ body {
 
 header {
   background-image: linear-gradient(180deg, #000000 25%, #8c00ff 56%);
-  padding: 2rem;
+  padding: 60px;
   color: azure;
   font-size: 2rem;
   text-align: center;
@@ -35,8 +27,10 @@ header {
 main {
   background-image: linear-gradient(359deg, #000000 25%,#8c00ff 100%);
   flex: 1;
-  padding: 4.76rem 0.3rem;
-  width: 100%;
+    padding: 48px;
+    padding-bottom: 0px;
+    padding-left: 38px;
+    padding-right: 100px;
 }
 
 
@@ -182,13 +176,24 @@ contact a {
   border: none;
   box-shadow: 0 2px 12px #0006;
   cursor: pointer;
-  display: flex;
   align-items: center;
   justify-content: center;
   transition: background 0.2s, color 0.2s, transform 0.2s;
   text-decoration: none;
 }
 
+#linkedinBtn {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+#githubBtn {
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 9px;
+  display: flex;
+  justify-content: center;
+}
 .social-btn:hover {
   cursor: pointer;
   transform: translateY(-2px);
