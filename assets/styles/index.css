@@ -189,14 +189,6 @@ contact a {
   text-decoration: none;
 }
 
-.github-btn-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
-  margin-top: 1rem;
-}
-
 .social-btn:hover {
   cursor: pointer;
   transform: translateY(-2px);
